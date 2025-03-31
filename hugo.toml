@@ -1,4 +1,4 @@
-baseURL = "/"
+baseURL = "https://doc.isnow.ai"
 languageCode = "en-GB"
 contentDir = "content"
 enableEmoji = true
@@ -10,15 +10,15 @@ defaultContentLanguage = 'en'
     title = "Lotus Docs Example Site"
     languageName = "English"
     weight = 10
-  [languages.fr]
+  [languages.hans]
     title = "Lotus Docs Exemple de Site"
-    languageName = "Français"
-    contentDir = "content/fr"
+    languageName = "简体中文"
+    contentDir = "content/hans"
     weight = 20
-  [languages.de]
+  [languages.hant]
     title = "Lotus Docs Beispiel Site"
-    languageName = "Deutsch"
-    contentDir = "content/de"
+    languageName = "繁体中文"
+    contentDir = "content/hant"
     weight = 30
 
 [module]
